@@ -1,0 +1,22 @@
+{
+  "name": "jassl",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Just another simple script uploader",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RainLoop/jassl.git"
+  },
+  "author": {
+    "name": "RainLoop Team",
+    "email": "support@rainloop.net"
+  },
+  "scripts": {
+    "test": "asynct test/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+	  "asynct": "*"
+  }
+}
