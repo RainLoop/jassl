@@ -18,9 +18,19 @@ npm install jassl
 ```js
 import jassl from 'jassl';
 
+jassl('jquery.min.js').then(() => {
+   $('#app').show();
+});
+```
+
+or
+
+```js
+import jassl from 'jassl';
+
 Promise.all([
-    jassl('jquery.min.js'),
-    jassl('common.min.js')
+   jassl('jquery.min.js'),
+   jassl('common.min.js')
 ]).then(() => {
    return jassl('app.min.js');
 }).then(() => {
