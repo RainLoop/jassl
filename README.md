@@ -10,7 +10,7 @@ Note: Works only in browser!
 ## Installation
 
 ``` sh
-npm install jassl
+npm install RainLoop/jassl --save
 ```
 
 ## Usage
