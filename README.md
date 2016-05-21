@@ -1,6 +1,6 @@
 # JASSL
 
-Just another simple script uploader
+Just another simple scripts loader
 
  [![Build Status](https://travis-ci.org/RainLoop/jassl.svg?branch=master)](https://travis-ci.org/RainLoop/jassl)
 

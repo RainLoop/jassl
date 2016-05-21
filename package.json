@@ -2,7 +2,7 @@
   "name": "jassl",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "Just another simple script uploader",
+  "description": "Just another simple scripts loader",
   "main": "index.js",
   "repository": {
     "type": "git",
