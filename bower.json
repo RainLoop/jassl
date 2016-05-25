@@ -1,0 +1,27 @@
+{
+  "name": "jassl",
+  "version": "1.1.0",
+  "license": "MIT",
+  "description": "Just another simple scripts loader",
+  "authors": [{
+    "name": "RainLoop Team",
+    "email": "support@rainloop.net"
+  }],
+  "keywords": [
+    "js",
+    "promise",
+    "loader",
+    "web"
+  ],
+  "homepage": "https://github.com/RainLoop/jassl",
+  "moduleType": ["globals", "node"],
+  "main": "jassl.min.js",
+  "ignore": [
+    "/.*",
+    "package.json",
+    "webpack.config.js",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
+}

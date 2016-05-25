@@ -1,6 +1,6 @@
 {
   "name": "jassl",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "description": "Just another simple scripts loader",
   "main": "index.js",
@@ -13,10 +13,14 @@
     "email": "support@rainloop.net"
   },
   "scripts": {
+    "build": "webpack",
     "test": "asynct test/"
   },
   "dependencies": {},
   "devDependencies": {
-	  "asynct": "*"
+    "asynct": "^1.1.0",
+    "es6-promise-polyfill": "^1.2.0",
+    "unminified-webpack-plugin": "^1.0.0",
+    "webpack": "^1.13.1"
   }
 }
