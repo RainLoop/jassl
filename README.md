@@ -35,7 +35,7 @@ Promise.all([
 ]).then(() => {
    return jassl('app.min.js');
 }).then(() => {
-   const app = new App();
+   var app = new App();
    app.bootstrap();
 });
 ```
